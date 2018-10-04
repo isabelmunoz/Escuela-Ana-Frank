@@ -1,0 +1,852 @@
+
+body {
+<<<<<<< HEAD
+  padding-top: 3.5rem;
+=======
+  padding-top: 4.5rem;
+>>>>>>> avance proyecto
+  color: #5a5a5a;
+}
+/* NAVBAR*/
+.navbar{
+  max-width: 100%;
+}
+.navbar-dark{
+  font-size: 18px;
+}
+#navbarCollapse{
+<<<<<<< HEAD
+  margin-left: 20rem;
+}
+.logo{
+  max-width: 80%;
+  padding-left: 8rem;
+}
+
+=======
+margin-right: 4em;
+}
+#rowlogo{
+max-width: 100%;
+padding-left: 4.2em;
+}
+
+/*menu escuela*/
+
+#navbarResponsive ul li {
+margin: 0.3em;
+padding-left: 0.8em;
+padding-right:  0.8em;
+padding-bottom: 0.4em;
+padding-top: 0.4em;
+font-size: 1.3em;
+font-weight: 500;
+background-color: #f2bc1d;
+border-radius: 0.3em;
+}
+#navbarResponsive ul li a{
+  color: white;
+}
+>>>>>>> avance proyecto
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+<<<<<<< HEAD
+  margin-top: 3rem;
+=======
+  margin-top: 4rem;
+>>>>>>> avance proyecto
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/*------------------------------------*\
+ Courses
+\*------------------------------------*/
+.course {
+ margin-top:20px;
+ margin-bottom:20px;
+}
+
+.course .course-img {
+ position: relative;
+ display:block;
+ margin-bottom:20px;
+ border-radius:4px;
+ overflow:hidden;
+}
+
+.course .course-img > img {
+ width:100%;
+}
+
+.course-img:after {
+ content:"";
+ position:absolute;
+ left:0;
+ right:0;
+ bottom:0;
+ top:0;
+ background-color:#FF6700;
+ opacity:0;
+ -webkit-transition:0.2s opacity;
+ transition:0.2s opacity;
+}
+
+.course .course-img:hover:after {
+ opacity:0.7;
+}
+
+.course .course-img .course-link-icon {
+ position:absolute;
+ left:50%;
+ top:50%;
+ -webkit-transform: translate(-50% , calc(-50% - 15px));
+     -ms-transform: translate(-50% , calc(-50% - 15px));
+         transform: translate(-50% , calc(-50% - 15px));
+ width:40px;
+ height:40px;
+ line-height:40px;
+ text-align:center;
+ border:2px solid #fff;
+ color:#fff;
+ border-radius:50%;
+ opacity:0;
+ z-index:10;
+ -webkit-transition:0.2s all;
+ transition:0.2s all;
+}
+
+.course .course-img:hover .course-link-icon {
+ -webkit-transform: translate(-50% , -50%);
+     -ms-transform: translate(-50% , -50%);
+         transform: translate(-50% , -50%);
+ opacity:1;
+}
+
+.course .course-title {
+ display:block;
+ height:42px;
+}
+
+.course .course-details {
+ margin-top: 20px;
+ padding-top: 10px;
+ border-top: 1px solid #EBEBEB;
+}
+
+.course .course-details .course-price {
+ float: right;
+}
+
+.course .course-details .course-price.course-free {
+ color: green;
+}
+
+.course .course-details .course-price.course-premium {
+ color: #FF6700;
+}
+
+#courses .center-btn {
+ text-align:center;
+ margin-top:40px;
+}
+
+.section-header {
+  margin-top:3em;
+	margin-bottom:2em;
+  width: 100%;
+}
+/* --- Buttons --- */
+.main-button {
+	position:relative;
+	display:inline-block;
+	padding:10px 30px;
+	background-color: #FF6700;
+	border: 2px solid transparent;
+	border-radius: 40px;
+	color: #FFF;
+	-webkit-transition:0.2s all;
+	transition:0.2s all;
+}
+
+.main-button:hover , .main-button:focus {
+	background-color:#fff;
+	border: 2px solid #FF6700;
+	color:#FF6700;
+}
+
+.main-button.icon-button:hover , .main-button.icon-button:focus {
+	padding-right: 45px;
+}
+
+.main-button.icon-button:after {
+	content:"\f178";
+	font-family:FontAwesome;
+	position:absolute;
+	width: 30px;
+	right: 15px;
+	text-align:center;
+	opacity:0;
+	-webkit-transition:0.2s all;
+	transition:0.2s all;
+}
+
+.main-button.icon-button:hover:after , .main-button.icon-button:focus:after {
+	opacity:1;
+}
+/*------------------------------------*\
+	Hero Area
+\*------------------------------------*/
+.hero-area {
+	position:relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#home.hero-area {
+	height:calc(100vh - 80px);
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.home-wrapper {
+	position:absolute;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	    -ms-transform:translateY(-50%);
+	        transform:translateY(-50%);
+	left:0;
+	right:0;
+}
+
+
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.featurette-image{
+  max-width: 100%;
+  maax-height: 100%;
+}
+
+
+/************** enlaces importantes ***************/
+.important-links-index{
+    background-color: #F7F7F7;
+    padding: 30px 0;
+    height: auto;
+}
+.important-links-index a{
+    border: 1px solid #737373;
+    background-color: transparent;
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #737373;
+    margin: 30px 20px;
+    text-align: center;
+    transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+}
+.important-links-index a:hover{
+    text-decoration: none;
+    background-color: #2E7D32;
+    border: 1px solid #F57C00;
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.important-links-index a:hover p,
+.important-links-index a:hover i{
+    color: #FFF;
+}
+.important-links-index a:active,
+.important-links-index a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.important-links-index a i,
+.important-links-index a p{
+    transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -webkit-transform: translateY(25px);
+}
+.important-links-index a i{
+    font-size: 45px;
+}
+.important-links-index a p{
+    font-size: 18px;
+}
+/*Footer */
+.footer-distributed{
+  background-color: #1e456d;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+
+  padding: 55px 50px;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 35%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 19px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> avance proyecto
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> avance proyecto
+.footer-distributed .footer-center p a{
+  color:  #5383d3;
+  text-decoration: none;;
+}
+<<<<<<< HEAD
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+=======
+/* Footer Right */
+.footer-distributed .footer-right{
+  width: 20%;
+}
+>>>>>>> avance proyecto
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> avance proyecto
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 38px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+<<<<<<< HEAD
+
+=======
+/* Temas */
+.card{
+	float: left;
+}
+#caja1 #caja3 #caja5{
+	float: left;
+}
+#caja2 #caja4 #caja6{
+	float: right;
+}
+.footer-distributed{
+	clear: both;
+
+}
+/*Estilos de la galeria*/
+.contenedor{
+  margin: 7em 2em;
+}
+.galeria {
+    margin: 10px 10px;
+}
+.galeria img {
+    width: 230px;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: 1s;
+    cursor: pointer;
+}
+.galeria img:hover{
+   filter: grayscale(0%);
+   transform: scale(1.1);
+}
+
+/*Estilos modal*/
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__img{
+    width: 60%;
+    max-width: 750px;
+    border: 1px solid white;
+}
+
+.modal__boton{
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: monospace;
+    line-height: 50px;
+    text-align: center;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    cursor: pointer;
+}
+/*Estilos left y right*/
+.fas{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+.a-right{
+   position: absolute;
+   right: 200px;
+   top: 300px;
+   cursor: pointer;
+}
+.a-left{
+   position: absolute;
+   left: 200px;
+   top: 300px;
+   cursor: pointer
+}
+>>>>>>> avance proyecto
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px)  {
+.navbar-dark{
+  font-size: 16px;
+}
+#navbarCollapse{
+  margin-left: -2rem;
+}
+
+ .navbar-brand img{
+
+    width: 90%;
+    position: relative;
+    top: 5px;
+    right: 85px;
+}
+
+ .navbar-toggler{
+    position: relative;
+    right: 30px;
+    top: 5px;
+ }
+
+ .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .footer-distributed {
+    background-color: #1e456d;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 17px sans-serif;
+  }
+ }
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-dark{
+  font-size: 14px;
+}
+#navbarCollapse{
+  margin-left: 2rem;
+}
+
+ .navbar-brand img{
+
+    width: 80%;
+    position: relative;
+    top: 5px;
+    right: 75px;
+}
+
+ .navbar-toggler{
+    position: relative;
+    right: 30px;
+    top: 5px;
+ }
+
+ .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+.footer-center div{
+  text-align: left;
+    margin-left: 70px;
+}
+.footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center,{
+    padding: 50px 10px 10px 0;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+
+  }
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+.navbar-dark{
+  font-size: 12px;
+}
+#navbarCollapse{
+  margin-left: 1rem;
+}
+
+ .navbar-brand img{
+    right: 95px;
+    width: 75%;
+    position: relative;
+    top: 30px;
+}
+
+ .navbar-toggler{
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+ }
+ .footer-distributed{
+    font: bold 12px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    display: none;
+  }
+
+  .footer-distributed .footer-center{
+    padding: 10px;
+    width: 100%;
+  }
+
+  .footer-distributed .footer-center i{
+    font-size: 15px;
+    margin-left: -40px;
+  }
+}
+<<<<<<< HEAD
+=======
+
+/*historia css*/
+
+#contenedorhistoria{
+background-color: #ffffff;
+max-width: 98%;
+border-radius: 5px;
+font-size: 18px;
+font-family: Raleway, opensans;
+padding: 6rem;
+}
+
+#imgniños{
+	width: 100%;
+	max-width: 15em;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	left: 6rem;
+	border: 4px solid white;
+
+
+}
+#imgniños2{
+	width: 100%;
+  max-width: 15em;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	left: 8rem;
+	border: 4px solid white;
+
+}
+#imgniños3{
+	width: 100%;
+	max-width: 15em;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	left: 10rem;
+	border: 4px solid white;
+
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px)  {
+#imagenhistoria{
+background-image: url(../img/elbuentrato.png);
+background-repeat: no-repeat;
+background-size:cover;
+max-width: 90%;
+height: 20rem;
+
+}
+#contenedorhistoria{
+background-color: #ffffff;
+max-width: 100%;
+border-radius: 5px;
+font-size: 20px;
+font-family: Raleway, opensans;
+padding: 8em;
+
+}
+#imgniños, #imgniños2, #imgniños3{
+      width: 100%;
+      max-width: 15em;
+      height: 18em;
+      border-radius: 1em;
+      position: relative;
+      left: -1rem;
+      border: 3px solid #b6b3b3;
+      margin: 1.4px;
+  }
+
+ }
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 481px) and (max-width: 767px) {
+#imagenhistoria{
+display: none;
+}
+
+#contenedorhistoria{
+background-color: #ffffff;
+max-width: 90%;
+border-radius: 5px;
+font-size: 16px;
+font-family: Raleway, opensans;
+padding: 2.5rem;
+
+}
+#imgniños, #imgniños2, #imgniños3{
+	width: 100%;
+	max-width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	position: relative;
+	left: 5rem;
+	border: 4px solid white;
+
+}
+
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+#imagenhistoria{
+display: none;
+}
+
+#contenedorhistoria{
+background-color: #ffffff;
+max-width: 85%;
+border-radius: 5px;
+font-size: 12px;
+font-family: Raleway, opensans;
+padding: 2rem;
+
+}
+
+#imgniños, #imgniños2,#imgniños3{
+	width: 100%;
+	max-width: 140px;
+	height: 130px;
+	border-radius: 50%;
+	position: relative;
+	left: 2rem;
+	border: 4px solid white;
+  }
+}
+>>>>>>> avance proyecto

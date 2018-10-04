@@ -1,0 +1,84 @@
+body {
+    
+    margin-top: 4em;
+    margin-bottom: 0;
+   
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+    margin: 10px 50px;
+}
+.galeria img {
+    width: 230px;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: 1s;
+    cursor: pointer;
+}
+.galeria img:hover{
+   filter: grayscale(0%);
+   transform: scale(1.1); 
+}
+
+/*Estilos modal*/
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__img{
+    width: 60%;
+    max-width: 750px;
+    border: 1px solid white;
+}
+
+.modal__boton{
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: monospace;
+    line-height: 50px;
+    text-align: center;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    cursor: pointer;
+}
+/*Estilos left y right*/
+.fas{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+.a-right{
+   position: absolute;
+   right: 200px;
+   top: 300px; 
+   cursor: pointer;
+}
+.a-left{
+   position: absolute;
+   left: 200px;
+   top: 300px; 
+   cursor: pointer
+
+}

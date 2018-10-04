@@ -1,0 +1,13 @@
+.card{
+	float: left;
+}
+#caja1 #caja3 #caja5{
+	float: left;
+}
+#caja2 #caja4 #caja6{
+	float: right;
+}
+.footer-distributed{
+	clear: both;
+
+}

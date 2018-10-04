@@ -1,0 +1,148 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 4.5rem;
+}
+#imagenhistoria{
+background-image: url(../img/elbuentrato.png);
+background-repeat: no-repeat;
+background-size:cover;
+max-width: 90%;
+height: 28rem;
+
+}
+#contenedorhistoria{
+background-color: #D9F9A1;
+max-width: 98%;
+border-radius: 5px;
+font-size: 18px;
+border: 3px solid #98C746;
+font-family: Raleway, opensans;
+padding: 6rem;
+
+}
+
+#imgniños{
+	width: 100%;
+	max-width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	left: 6rem;
+	border: 4px solid white;
+	
+}
+#imgniños2{
+	width: 100%;
+	max-width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	left: 8rem;
+	border: 4px solid white;
+	
+}
+#imgniños3{
+	width: 100%;
+	max-width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	left: 10rem;
+	border: 4px solid white;
+	
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px)  {
+#imagenhistoria{
+background-image: url(../img/elbuentrato.png);
+background-repeat: no-repeat;
+background-size:cover;
+max-width: 90%;
+height: 20rem;
+
+}
+#contenedorhistoria{
+background-color: #D9F9A1;
+max-width: 90%;
+border-radius: 5px;
+font-size: 16px;
+border: 3px solid #98C746;
+font-family: Raleway, opensans;
+padding: 2.5rem;
+
+}
+#imgniños, #imgniños2, #imgniños3{
+	width: 100%;
+	max-width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	left: 5rem;
+	border: 4px solid white;
+	
+}
+ }
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 481px) and (max-width: 767px) {
+#imagenhistoria{
+display: none;
+}
+
+#contenedorhistoria{
+background-color: #D9F9A1;
+max-width: 90%;
+border-radius: 5px;
+font-size: 16px;
+border: 3px solid #98C746;
+font-family: Raleway, opensans;
+padding: 2.5rem;
+
+}
+#imgniños, #imgniños2, #imgniños3{
+	width: 100%;
+	max-width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	position: relative;
+	left: 5rem;
+	border: 4px solid white;
+	
+}
+
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+#imagenhistoria{
+display: none;
+}
+
+#contenedorhistoria{
+background-color: #D9F9A1;
+max-width: 85%;
+border-radius: 5px;
+font-size: 12px;
+border: 3px solid #98C746;
+font-family: Raleway, opensans;
+padding: 2rem;
+
+}
+ 
+#imgniños, #imgniños2,#imgniños3{
+	width: 100%;
+	max-width: 140px;
+	height: 130px;
+	border-radius: 50%;
+	position: relative;
+	left: 2rem;
+	border: 4px solid white;
+	
+}
+
+}
